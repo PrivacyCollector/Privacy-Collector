@@ -1,0 +1,50 @@
+{
+  "chrome_extension_name": {
+    "description": "Extension name, used in the Web Store",
+    "message": "Privacy Collector"
+  },
+  "chrome_extension_description": {
+    "description": "Extension description, used in the Web Store",
+    "message": "Privacy settings data collector for an undergraduate thesis. No sensitive data is collected."
+  },
+  "main_tab": {
+    "description": "Tab label",
+    "message": "Privacy data"
+  },
+
+  "app_objective":{
+    "description":"App objective",
+    "message":"This is an extension to assist in collecting browser privacy settings. These data will be used for study in an undergraduate thesis. Please note that only configuration parameters are captured, that is, no personal or confidential data is being collected from the browser. It will be collected if the following options are active or inactive:"
+  },
+
+  "collected_options":{
+    "description":"Collected data",
+    "message": "Alternate page error option;\nAuto fill address option;\nAuto fill credit card option;\nHyperlink auditing option;\nNetwork prediction option;\nPassword saving option;\nReferrers header option;\nSafe browsing option;\nSafe browsing extended report option;\nSearch suggest option;\nSpelling service option;\n3rd party cookies option;\nTranslation service option."
+  },
+
+  "send_data":{
+    "description":"Send privacy data options button description",
+    "message":"Send data"
+  },
+
+  "send_data_failed":{
+    "description":"Send privacy data options failed",
+    "message":"Failed to send data."
+  },
+
+  "send_data_success":{
+    "description":"Send privacy data options success",
+    "message":"Data sent successfully. Thank you."
+  },
+
+  "send_data_limit_reached":{
+    "description":"Send privacy data options api limit reached",
+    "message":"Failed to send data. Api limit already reached. Please, try again later."
+  },
+
+  "data_already_sent":{
+    "description":"Privacy data already sent",
+    "message":"You have already participated in this data collection. Thank you."
+  }
+  
+}
