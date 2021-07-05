@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+  - This file is part of Privacy Manager.
+  - Copyright (C) 2017-present Manvel Saroyan
+  - 
+  - Privacy Manager is free software: you can redistribute it and/or modify
+  - it under the terms of the GNU General Public License as published by
+  - the Free Software Foundation, either version 3 of the License, or
+  - (at your option) any later version.
+  - 
+  - Privacy Manager is distributed in the hope that it will be useful,
+  - but WITHOUT ANY WARRANTY; without even the implied warranty of
+  - MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  - GNU General Public License for more details.
+  - 
+  - You should have received a copy of the GNU General Public License
+  - along with Privacy Manager. If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<html>
+	<head>
+		<title>Privacy Collector</title>
+		<meta charset='utf-8'>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="css/pm-tab-panel.css" />
+
+		<script type="text/javascript" src="js/pm-components.js" defer></script>
+		<script type="text/javascript" src="browser-polyfill.min.js"></script>
+		<script type="text/javascript" src="js/ui.js"></script>
+	</head>
+	<body>
+		<template id="settings-list">
+			<li>
+				<pm-toggle text="My text" description="Description of the element goes here">
+					</pm-toggle>
+			</li>
+		</template>
+		<div id="main">
+			<pm-tab-panel>
+	
+				<pm-tabs>
+					<pm-tab id="tab-main" data-i18n="main_tab"></pm-tab>
+					<!--<pm-tab id="tab-cookies" data-i18n="cookies_general"></pm-tab>
+					<pm-tab id="tab-network" data-i18n="network_tab"></pm-tab>-->
+				</pm-tabs>
+			
+				<pm-panels>
+					<pm-panel aria-labelledby="tab-main" id="panel-main">
+
+						<div class="settings-list-container">
+							<section id="privacyManagement">
+								<p data-i18n="app_objective"></p> 
+								<p data-i18n="collected_options"></p>
+								<!--<p data-i18n="alternate_pages_error"></p>
+								<p data-i18n="autofillAddressEnabled"></p>
+								<p data-i18n="autofillCreditCardEnabled"></p>
+								<p data-i18n="hyperlinkAuditingEnabled"></p>
+								<p data-i18n="networkPredictionEnabled"></p>
+								<p data-i18n="passwordSavingEnabled"></p>
+								<p data-i18n="referrersEnabled"></p>
+								<p data-i18n="safeBrowsingEnabled"></p>
+								<p data-i18n="safeBrowsingExtendedReportingEnabled"></p>
+								<p data-i18n="searchSuggestEnabled"></p>
+								<p data-i18n="spellingServiceEnabled"></p>
+								<p data-i18n="thirdPartyCookiesAllowed"></p>
+								<p data-i18n="translationServiceEnabled"></p>-->
+								<!--<h4 data-i18n="cookies_general"></h4>-->
+								
+								<button id="sendData" data-action="send-data" data-i18n="send_data">Enviar Dados</button>
+							    
+							</section>
+						</div>
+
+					</pm-panel>
+					
+				</pm-panels>
+			
+			</pm-tab-panel>
+		</div>
+	</body>
+</html>

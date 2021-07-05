@@ -1,0 +1,50 @@
+{
+  "chrome_extension_name": {
+    "description": "Extension name, used in the Web Store",
+    "message": "Privacy Collector"
+  },
+  "chrome_extension_description": {
+    "description": "Extension description, used in the Web Store",
+    "message": "Coletor de dados de configurações de privacidade, para um trabalho de conclusão de curso. Nenhum dado sensível é coletado."
+  },
+  "main_tab": {
+    "description": "Tab label",
+    "message": "Dados de privacidade"
+  },
+
+  "app_objective":{
+    "description":"App objective",
+    "message":"Esta é uma extensão para auxiliar na coleta das configurações de privacidade do navegador. Esses dados, serão utilizados para estudo em um trabalho de conclusão de curso. Salienta-se que somente os parâmetros de configuração são capturados, ou seja, nenhum dado pessoal ou confidencial está sendo coletado do navegador. Será coletado se as seguintes opções estão ativas ou inativas:"
+  },
+
+  "collected_options":{
+    "description":"Collected data",
+    "message":"Opção de páginas de erro alternativa;\nOpção de auto preenchimento de endereços;\nOpção de auto preenchimento de cartões de crédito;\nOpção de auditoria de hyperlink;\nOpção de prever rede;\nOpção de salvar senhas;\nOpção de enviar cabeçalhos de referência;\nOpção de navegação segura;\nOpção de relatório extendido de navegação segura;\nOpção de sugestão de pesquisa;\nOpção de corretor de texto;\nOpção de permitir cookies de terceiros;\nOpção de tradução."
+  },
+
+  "send_data":{
+    "description":"Send privacy data options button description",
+    "message":"Enviar dados"
+  },
+
+  "send_data_failed":{
+    "description":"Send privacy data options failed",
+    "message":"Falha ao enviar dados."
+  },
+
+  "send_data_success":{
+    "description":"Send privacy data options success",
+    "message":"Dados enviados com sucesso. Obrigado."
+  },
+
+  "send_data_limit_reached":{
+    "description":"Send privacy data options api limit reached",
+    "message":"Falha ao enviar dados. Limite de API já atingido. Por favor, tente novamente mais tarde."
+  },
+
+  "data_already_sent":{
+    "description":"Privacy data already sent",
+    "message":"Você já participou desta coleta de dados. Obrigado."
+  }
+  
+}
